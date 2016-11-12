@@ -1,0 +1,18 @@
+{
+  "name": "functional_typescript",
+  "version": "1.0.0",
+  "description": "https://vsavkin.com/functional-typescript-316f0e003dc6",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && npm run test",
+    "build": "rm -rf js && tsc",
+    "watch": "nodemon -e ts -x 'npm run start'",
+    "test": "mocha test/",
+    "test:watch": "nodemon -watch test/ -x 'npm run test'"
+  },
+  "author": "Ilya Dyachenko",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
+}
