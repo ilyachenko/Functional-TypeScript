@@ -267,3 +267,5 @@ function averageSalary(employees: Employee[], conditions: Predicate[]): number {
 [“JavaScript Allonge” by Reginald Braithwaite](https://leanpub.com/javascript-allonge)
 
 [“Functional JavaScript” by Michael Fogus](http://shop.oreilly.com/product/0636920028857.do)
+
+#### Оригинал статьи [Functional TypeScript](https://vsavkin.com/functional-typescript-316f0e003dc6#.e2t42cfeb)
